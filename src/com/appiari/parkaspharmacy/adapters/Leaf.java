@@ -1,5 +1,7 @@
 package com.appiari.parkaspharmacy.adapters;
 
+//Added a little header file up here yallssss
+
 public class Leaf {
 
 	//There was a hotfix we just fixed here yallssss
@@ -44,5 +46,7 @@ public class Leaf {
 	public void setImage(String image) {
 		this.image = image;
 	}
+	
+	//Added a little footer here 
 
 }
