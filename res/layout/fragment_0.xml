@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+
+    <TextView
+        android:id="@+id/space1"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/transparent_green" />
+
+    <ScrollView
+        android:id="@+id/scrollview_fragment1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativelayout_fragment_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/textview_leafID_color"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:text="Flower Color"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="25sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalscroll_leafID_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview_leafID_color" >
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textview_leafID_shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/horizontalscroll_leafID_color"
+                android:layout_below="@+id/horizontalscroll_leafID_color"
+                android:layout_margin="10dip"
+                android:text="Leaf Shape"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="25sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalscroll_leafID_images"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview_leafID_shape" >
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textview_leafID_margin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/horizontalscroll_leafID_images"
+                android:layout_below="@+id/horizontalscroll_leafID_images"
+                android:layout_margin="10dip"
+                android:text="Leaf Margin"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="25sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalscroll_leafID_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview_leafID_margin" >
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textview_leafID_arrangement"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/horizontalscroll_leafID_margin"
+                android:layout_below="@+id/horizontalscroll_leafID_margin"
+                android:layout_margin="10dip"
+                android:text="Leaf Arrangement"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="25sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalscroll_leafID_arrangement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview_leafID_arrangement" >
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/spaceend"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_below="@+id/horizontalscroll_leafID_arrangement"
+                android:layout_margin="10dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent_green"
+        android:text="Search"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

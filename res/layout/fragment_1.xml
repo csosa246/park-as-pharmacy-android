@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    
+    <ListView
+        android:id="@+id/listview_medicinal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textview_medicinal_title"
+         android:layout_centerHorizontal="true">
+    </ListView>
+    
+
+     <TextView
+        android:id="@+id/textview_medicinal_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent_green"
+        android:text="Search By Medicinal Properties"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+
+</RelativeLayout>
