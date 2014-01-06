@@ -1,5 +1,7 @@
 package com.appiari.parkaspharmacy.adapters;
 
+//Added a little header file up here yallssss
+
 public class Leaf {
 
 	public Leaf(String name, String urlWiki, String image,int databasePosition) {
