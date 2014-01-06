@@ -2,6 +2,8 @@ package com.appiari.parkaspharmacy.adapters;
 
 public class Leaf {
 
+	//There was a hotfix we just fixed here yallssss
+	
 	public Leaf(String name, String urlWiki, String image,int databasePosition) {
 		super();
 		this.name = name;
