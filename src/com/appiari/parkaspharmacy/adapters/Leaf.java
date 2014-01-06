@@ -44,5 +44,7 @@ public class Leaf {
 	public void setImage(String image) {
 		this.image = image;
 	}
+	
+	//Added a little footer here 
 
 }
