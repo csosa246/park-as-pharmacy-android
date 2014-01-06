@@ -4,6 +4,8 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 
+//Doing some things to the about page RUINING IT MESSING IT UP 
+
 public class About {
 	Context context;
 
