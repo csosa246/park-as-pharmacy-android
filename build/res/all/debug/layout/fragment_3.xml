@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/space1"
+                android:layout_width="fill_parent"
+                android:layout_height="35dip"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/imageview_profilepic"
+                android:layout_width="fill_parent"
+                android:layout_height="170dip"
+                android:layout_below="@+id/space1"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/common_burdock" />
+
+            <!-- Distinguishing features -->
+
+            <TextView
+                android:id="@+id/textview_distinguishing_features_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageview_profilepic"
+                android:layout_margin="10dp"
+                android:text="Distinguishing Features"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/space2"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_below="@+id/textview_distinguishing_features_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#DDDDDD" />
+
+            <TextView
+                android:id="@+id/textview_distinguishing_features"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/space2"
+                android:layout_margin="10dp"
+                android:text="DATA GOES HERE" />
+
+            <!-- Petals -->
+
+            <TextView
+                android:id="@+id/textview_flower_characteristics_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview_distinguishing_features"
+                android:layout_margin="10dp"
+                android:text="Flower Characteristics"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/space3"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_below="@+id/textview_flower_characteristics_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#DDDDDD" />
+
+            <TextView
+                android:id="@+id/textview_flower_characteristics"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/space3"
+                android:layout_margin="10dp"
+                android:text="Flower Color" />
+
+            <TextView
+                android:id="@+id/textview_leaf_characteristics_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview_flower_characteristics"
+                android:layout_margin="10dp"
+                android:text="Leaf Characteristics"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/space4"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_below="@+id/textview_leaf_characteristics_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#DDDDDD" />
+
+            <TextView
+                android:id="@+id/textview_leaf_characteristics"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/space4"
+                android:layout_margin="10dp"
+                android:text="Petals" />
+
+            <TextView
+                android:id="@+id/textview_otherinfo_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview_leaf_characteristics"
+                android:layout_margin="10dp"
+                android:text="Other Information"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/space5"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_below="@+id/textview_otherinfo_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#DDDDDD" />
+            
+            <TextView android:id="@+id/textview_otherinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/space5"
+                android:textSize="15sp"
+                
+                android:layout_margin="10dp"/>
+           
+        </RelativeLayout> 
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textview_common_name"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/transparent_green"
+        android:text="Common Burdock"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+</RelativeLayout><!-- From: file:/Users/craesosa/Dropbox/Appiari/ParkAsPharmacy/res/layout/fragment_3.xml -->

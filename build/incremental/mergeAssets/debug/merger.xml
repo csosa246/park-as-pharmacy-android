@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="AppiariActionbarsherlockUnspecified.aar" >
+        <source path="/Users/craesosa/Dropbox/Appiari/ParkAsPharmacy/build/exploded-bundles/AppiariActionbarsherlockUnspecified.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/craesosa/Dropbox/Appiari/ParkAsPharmacy/assets" >
+            <file
+                name="fonts/Roboto/Roboto-Italic.ttf"
+                path="/Users/craesosa/Dropbox/Appiari/ParkAsPharmacy/assets/fonts/Roboto/Roboto-Italic.ttf" />
+            <file
+                name="fonts/Roboto/Roboto-Light.ttf"
+                path="/Users/craesosa/Dropbox/Appiari/ParkAsPharmacy/assets/fonts/Roboto/Roboto-Light.ttf" />
+            <file
+                name="fonts/Roboto/Roboto-LightItalic.ttf"
+                path="/Users/craesosa/Dropbox/Appiari/ParkAsPharmacy/assets/fonts/Roboto/Roboto-LightItalic.ttf" />
+            <file
+                name="PAPDATABASE"
+                path="/Users/craesosa/Dropbox/Appiari/ParkAsPharmacy/assets/PAPDATABASE" />
+            <file
+                name="Roboto-Light.ttf"
+                path="/Users/craesosa/Dropbox/Appiari/ParkAsPharmacy/assets/Roboto-Light.ttf" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/craesosa/Dropbox/Appiari/ParkAsPharmacy/build-types/debug/assets" />
+    </dataSet>
+
+</merger>
